@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package gui;
 
 import java.awt.Graphics;
@@ -35,7 +30,7 @@ public class DrawPanel extends javax.swing.JPanel {
         Graphics2D gg=(Graphics2D)g;
         gg.translate(0, getWidth());
         gg.scale(1, -1);
-        gg.drawImage(image, null,0,0);
+        gg.drawImage(image, null,10,10);
     }
 
 
