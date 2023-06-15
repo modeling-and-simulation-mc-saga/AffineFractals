@@ -4,9 +4,7 @@ package model;
  *
  * @author tadaki
  */
-public class Sierpinski extends BaseModel {
-
-
+public class Sierpinski extends AbstractFractal {
 
     @Override
     public void setAffine() {

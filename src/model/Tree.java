@@ -9,8 +9,7 @@ import java.awt.image.BufferedImage;
  *
  * @author tadaki
  */
-public class Tree extends BaseModel {
-
+public class Tree extends AbstractFractal {
 
     @Override
     public void setAffine() {

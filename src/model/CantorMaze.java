@@ -4,8 +4,7 @@ package model;
  *
  * @author tadaki
  */
-public class CantorMaze extends BaseModel {
-
+public class CantorMaze extends AbstractFractal {
 
     @Override
     public void setAffine() {

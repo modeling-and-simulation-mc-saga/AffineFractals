@@ -4,7 +4,7 @@ package model;
  *
  * @author tadaki
  */
-public class KochCurve extends BaseModel {
+public class KochCurve extends AbstractFractal {
 
     @Override
     public void setAffine() {

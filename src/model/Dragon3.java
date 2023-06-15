@@ -4,7 +4,7 @@ package model;
  *
  * @author tadaki
  */
-public class Dragon3 extends BaseModel {
+public class Dragon3 extends AbstractFractal {
 
 
     @Override
